@@ -1,0 +1,699 @@
+﻿body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    background-image: url("string-555070_1280.jpg");
+    background-attachment: fixed;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bodyContainer {
+    height: 100%;
+    max-width: 1100px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.headerContainer {
+    border-bottom: 20px solid #00352F;
+    background: #6A9E98;
+    height: 108px;
+}
+
+    .headerContainer header h1 {
+        margin: 0;
+        color: #fff;
+        font-size: 50px;
+        float: left;
+        margin: 38px 0 0 38px;
+    }
+
+    .headerContainer header nav {
+        height: 69px;
+        width: 620px;
+        float: right;
+        margin-top: 40px;
+    }
+
+        .headerContainer header nav ul {
+            margin: 0;
+        }
+
+            .headerContainer header nav ul li a {
+                text-decoration: none;
+                font-weight: bold;
+                color: #fff;
+                background: #00352F;
+                border-left: 2px solid white;
+                padding: 25px 60px;
+                float: left;
+            }
+
+                .headerContainer header nav ul li a:hover {
+                    background-color: #236A62;
+                }
+
+            .headerContainer header nav ul li:first-child a {
+                border-left: none;
+            }
+
+.bodyContainer .mobileHeaderContainer {
+    display: none;
+}
+
+.bodyContainer div .aboutContainer {
+    width: 425px;
+    float: left;
+    margin: 20px 0 0 75px;
+}
+
+    .bodyContainer div .aboutContainer div h2 {
+        margin: 0 0 20px 0;
+    }
+
+    .bodyContainer div .aboutContainer div p {
+        line-height: 24px;
+    }
+
+.bodyContainer div .showsContainer {
+    width: 425px;
+    float: left;
+    background-color: #6A9E98;
+    border-radius: 8px;
+    border-top: 20px solid #00352F;
+    margin: 42px 0 0 75px;
+}
+
+    .bodyContainer div .showsContainer div h2 {
+        margin: 20px;
+        color: #fff;
+    }
+
+    .bodyContainer div .showsContainer div ul {
+        color: #fff;
+        margin-bottom: 30px;
+    }
+
+        .bodyContainer div .showsContainer div ul li {
+            margin-top: 16px;
+        }
+
+            .bodyContainer div .showsContainer div ul li:first-child {
+                margin-top: 0;
+            }
+
+            .bodyContainer div .showsContainer div ul li div:first-child {
+                font-weight: bold;
+                margin-left: 0;
+            }
+
+            .bodyContainer div .showsContainer div ul li div {
+                margin: 0 7px 0 20px;
+            }
+
+
+.bodyContainer div .galleryContainer {
+    max-width: 1100px;
+    height: 500px;
+}
+
+    .bodyContainer div .galleryContainer h2 {
+        margin-left: 70px;
+    }
+
+    .bodyContainer div .galleryContainer .imageContainer {
+        width: 800px;
+        height: 450px;
+        background-color: gray;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+    }
+
+        .bodyContainer div .galleryContainer .imageContainer .ion-chevron-left {
+            position: absolute;
+            left: 10px;
+            font-size: 40px;
+            top: 0;
+            bottom: 0;
+            line-height: 450px;
+            color: #fff;
+            z-index: 1;
+        }
+
+        .bodyContainer div .galleryContainer .imageContainer .pictureContainer {
+            width: 10000px;
+            position: absolute;
+        }
+
+        .bodyContainer div .galleryContainer .imageContainer .ion-chevron-right {
+            position: absolute;
+            right: 10px;
+            font-size: 40px;
+            top: 0;
+            bottom: 0;
+            line-height: 450px;
+            color: #fff;
+            z-index: 1;
+        }
+
+        .bodyContainer div .galleryContainer .imageContainer img {
+            height: 450px;
+            float: left;
+            margin-left: 20px;
+        }
+
+            .bodyContainer div .galleryContainer .imageContainer img:first-child {
+                margin-left: 0;
+            }
+
+.bodyContainer div .contactContainer {
+    margin: 20px 75px 20px 75px;
+}
+
+    .bodyContainer div .contactContainer div .contactTextContainer {
+        padding: 30px 0 30px 0;
+    }
+
+        .bodyContainer div .contactContainer div .contactTextContainer h2 {
+            margin: 0;
+        }
+
+        .bodyContainer div .contactContainer div .contactTextContainer p {
+            margin: 20px 0 0 0;
+        }
+
+.bodyContainer div .sharingContainer {
+    width: 551px;
+    margin: 30px auto 0 auto;
+}
+
+    .bodyContainer div .sharingContainer ul {
+        margin: 0;
+        padding: 0;
+        height: 84px;
+    }
+
+        .bodyContainer div .sharingContainer ul li {
+            float: left;
+            margin-left: 115px;
+        }
+
+            .bodyContainer div .sharingContainer ul li:first-child {
+                margin-left: 0;
+            }
+
+            .bodyContainer div .sharingContainer ul li a {
+                font-size: 70px;
+                color: #CC3300;
+            }
+
+.footerContainer {
+    max-width: 1100px;
+    height: 125px;
+    border-top: 20px solid #00352F;
+    background: #6A9E98;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+    .footerContainer nav {
+        float: right;
+        clear: both;
+        margin-right: 25px;
+    }
+
+        .footerContainer nav ul {
+            margin: 0;
+        }
+
+            .footerContainer nav ul li {
+                float: left;
+                margin: 0 0 0 60px;
+            }
+
+                .footerContainer nav ul li:first-child {
+                    margin-left: 0;
+                }
+
+                .footerContainer nav ul li a {
+                    color: #FFCC66;
+                }
+
+    .footerContainer h3 {
+        float: right;
+        clear: both;
+        margin: 60px 25px 0 0;
+        color: #fff;
+    }
+
+a {
+    text-decoration: none;
+    color: #CC3300;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+nav ul, ul {
+    list-style-type: none;
+}
+
+.clearFix {
+    clear: both;
+}
+
+@media (max-width: 1110px) {
+    .bodyContainer div .aboutContainer {
+        float: none;
+        margin: 20px auto;
+        max-width: 775px;
+        width: auto;
+    }
+
+    .bodyContainer div .showsContainer {
+        float: none;
+        margin: 0 auto;
+        max-width: 775px;
+        width: auto;
+    }
+
+        .bodyContainer div .showsContainer div ul {
+            margin-bottom: 0;
+            padding-bottom: 30px;
+        }
+}
+
+@media (max-width: 1045px) {
+
+    .bodyContainer div .contactContainer div .contactTextContainer {
+        float: none;
+        padding: 0;
+    }
+
+        .bodyContainer div .contactContainer div .contactTextContainer .contactText {
+            width: auto;
+        }
+
+    .bodyContainer div .contactContainer div img {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .headerContainer {
+        display: none;
+    }
+
+    .bodyContainer .mobileHeaderContainer {
+        display: block;
+    }
+
+        .bodyContainer .mobileHeaderContainer .mobileHeader {
+            background-color: #6A9E98;
+            padding: 10px;
+            height: 42px;
+        }
+
+            .bodyContainer .mobileHeaderContainer .mobileHeader .ion-navicon-round {
+                font-size: 35px;
+                float: left;
+                cursor: pointer;
+            }
+}
+
+.bodyContainer .mobileHeaderContainer .menuNavigation {
+    display: none;
+}
+
+    .bodyContainer .mobileHeaderContainer .menuNavigation .menu {
+        background-color: #fff;
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 350px;
+    }
+
+        .bodyContainer .mobileHeaderContainer .menuNavigation .menu .headerTitle {
+            margin: 20px;
+            float: left;
+        }
+
+        .bodyContainer .mobileHeaderContainer .menuNavigation .menu .ion-close-round {
+            font-size: 30px;
+            float: right;
+            padding: 12px 25px 0 0;
+            color: #CC3300;
+            cursor: pointer;
+        }
+
+        .bodyContainer .mobileHeaderContainer .menuNavigation .menu nav {
+            clear: both;
+        }
+
+            .bodyContainer .mobileHeaderContainer .menuNavigation .menu nav ul {
+                padding: 0;
+            }
+
+                .bodyContainer .mobileHeaderContainer .menuNavigation .menu nav ul li {
+                    border-top: 10px solid #CC3300;
+                }
+
+                    .bodyContainer .mobileHeaderContainer .menuNavigation .menu nav ul li:first-child {
+                        border-top-style: none;
+                    }
+
+                    .bodyContainer .mobileHeaderContainer .menuNavigation .menu nav ul li a {
+                        display: block;
+                        width: 340px;
+                        background-color: #6A9E98;
+                        padding: 20px 0 20px 10px;
+                        color: #fff;
+                        text-decoration: none;
+                    }
+
+                        .bodyContainer .mobileHeaderContainer .menuNavigation .menu nav ul li a:hover {
+                            background-color: blue;
+                        }
+
+    .bodyContainer .mobileHeaderContainer .menuNavigation .menuOverlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: #000;
+        opacity: .60;
+    }
+
+@media (max-width: 850px) {
+    .bodyContainer div .aboutContainer {
+        margin: 10px 0 0 0;
+        padding: 0 20px;
+    }
+
+    .bodyContainer div .showsContainer {
+        margin: 0 20px;
+    }
+}
+
+@media (max-width: 633px) {
+
+    .bodyContainer div .sharingContainer {
+        width: 401px;
+    }
+
+        .bodyContainer div .sharingContainer ul {
+            height: 55px;
+        }
+
+            .bodyContainer div .sharingContainer ul li {
+                margin-left: 80px;
+            }
+
+                .bodyContainer div .sharingContainer ul li a {
+                    font-size: 55px;
+                }
+}
+
+@media (max-width: 477px) {
+    .bodyContainer div .sharingContainer {
+        width: 170px;
+    }
+
+        .bodyContainer div .sharingContainer ul {
+            height: 152px;
+        }
+
+            .bodyContainer div .sharingContainer ul .mediaBreak {
+                clear: left;
+                margin: 20px 0 0 0;
+            }
+
+                .bodyContainer div .sharingContainer ul .mediaBreak + li {
+                    margin-top: 20px;
+                }
+
+    .footerContainer {
+        padding: 5px 0 10px 0;
+        height: auto;
+    }
+
+        .footerContainer h3 {
+            width: 180px;
+            float: none;
+            margin: 35px auto 0 auto;
+        }
+
+        .footerContainer nav {
+            margin: 0;
+            float: none;
+            width: 64px;
+            margin: 0 auto;
+        }
+
+            .footerContainer nav ul {
+                padding: 0;
+            }
+
+                .footerContainer nav ul li {
+                    float: none;
+                    margin: 10px 0 0 0;
+                }
+
+                    .footerContainer nav ul li:first-child {
+                        margin: 0;
+                    }
+}
+
+@media (max-width: 371px) {
+    .bodyContainer .mobileHeaderContainer .menuNavigation .menu {
+        width: 100%;
+    }
+
+        .bodyContainer .mobileHeaderContainer .menuNavigation .menu nav ul li a {
+            width: auto;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}*/
+
+/*.aboutContainer {
+}
+
+.showsContainer {
+    border-top: 20px solid #00352F;
+    color: white;
+    background: #6A9E98;
+    float: right;
+    padding: 0px 10px;
+    border-radius: 3px 4px;
+    width: 50%;
+}
+
+.galleryContainer {
+    align-content: center;
+}
+
+.container {
+    width: 800px;
+    height: 400px;
+    padding: 20px;
+    border: 1px solid gray;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: black;
+}
+
+.slider_wrapper {
+    overflow: hidden;
+    position: relative;
+    height: 280px;
+    top: auto;
+}
+
+#image_slider {
+    position: relative;
+    height: auto;
+    list-style: none;
+    overflow: hidden;
+    float: left;
+    /*Chrome default padding for ul is 40px
+    padding: 0px;
+    margin: 0px;
+}
+
+    #image_slider li {
+        position: relative;
+        float: left;
+    }*/
+
+/*.nvgt {
+    position: absolute;
+    top: 120px;
+    height: 50px;
+    width: 30px;
+    opacity: 0.6;
+}
+
+    .nvgt:hover {
+        opacity: 0.9;
+    }
+
+#prev {
+    background: #000 url('https://dl.dropboxusercontent.com/u/65639888/image/prev.png') no-repeat center;
+    left: 0px;
+}
+
+#next {
+    background: #000 url('https://dl.dropboxusercontent.com/u/65639888/image/next.png') no-repeat center;
+    right: 0px;
+}
+
+.newsletterSignupContainer {
+    float: right;
+}
+
+.contactContainer {
+    float: left;
+}
+
+.footerContainer {
+    color: white;
+    border-top: 20px solid #00352F;
+    background: #6A9E98;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}*/
+
+
+/*h1 {
+    color: white;
+}
+
+h2 {
+}*/
+
+/*p {
+}*/
+
+/*************************
+Media Queries
+*************************/
+/*Phone*/
+
+/*@media only screen and (min-width: 480px) {
+
+    nav a {
+        float: left;
+        width: 172px;
+        margin: 0;
+        padding: 25px 1%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+        border-left-style: none;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+}*/
+
+/*Tablet*/
+/*@media only screen and (min-width: 768px), only screen and (min-width: 700px) and (orientation: landscape) {
+
+    .title {
+        float: left;
+        font-size: 1.4em;
+    }
+
+    nav {
+        float: right;
+        width: 517px;
+    }
+
+        nav a {
+            padding: 15px 1%;
+        }
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 38%;
+    }
+}*/
+
+/*Desktop*/
+/*@media only screen and (min-width: 1026px) {
+
+    .wrapper {
+        width: 1026px;
+        margin: 0 auto;
+    }
+
+    .title {
+        font-size: 2em;
+    }
+
+    nav a {
+        padding: 25px 1%;
+    }
+}*/
+
+/*************************
+Clearfix
+*************************/
+
+/*.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}*/
