@@ -1,2 +1,2 @@
 # Code-Louisville-Front-End-Project
-I redesigned the Dreamland website for my final project. I created the project from scratch based on a design I liked.
+I redesigned the Dreamland Louisville website for my final project. I found a design that I liked, and then reproduced that design without looking at the existing code.
